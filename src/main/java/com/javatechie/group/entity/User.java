@@ -9,6 +9,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import java.io.Serializable;
 
 @Data
 @AllArgsConstructor
@@ -16,7 +17,7 @@ import javax.persistence.Table;
 @ToString
 @Entity
 @Table(name = "USERS_AUTHENTICATION_TBL")
-public class User {
+public class User implements Serializable {
     @Id
     @GeneratedValue
     private int id;
