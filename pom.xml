@@ -8,10 +8,10 @@
 		<version>2.4.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.javatechie</groupId>
-	<artifactId>javatechie-group-service</artifactId>
+	<groupId>com.thilak</groupId>
+	<artifactId>User-project</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>javatechie-group-service</name>
+	<name>User-project</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
